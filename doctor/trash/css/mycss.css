@@ -1,0 +1,80 @@
+.formbox
+		{
+			text-align: center;
+			width: 400px;
+			height: 520px;
+			background : #fff;
+			border-radius: 0px;
+			transition: 1s;
+			border-top: 2px solid blue;
+			border-bottom:  2px solid blue;			
+			
+		}
+		.formbox:hover{
+			box-shadow: 0px 0px 30px #fff;
+			transition: 1s;
+		}
+		.formbox h1
+		{
+			margin-top: 25px;
+			color: white;
+			letter-spacing: 1px;
+			font-size: bold;
+		}
+
+		.formbox i
+		{
+			transform: translateX(35px);
+			color: #000;
+		}
+
+
+		.formbox input,select{
+			outline: none;
+			border-radius: 30px;
+			border: 2px solid #2f6a9e;
+			width: 300px;
+			height: 45px;
+			background: #eeeeee;
+			margin-top: 25px;
+			padding-left: 40px;
+			padding-right: 20px;
+			margin-right: 20px;
+			font-size: 16px;
+			transition: all .4s;
+		}
+		.formbox select 
+		{
+			padding-right: 100px !important;
+		}
+		.formbox input[type="text"] {
+			color: #000;
+		}
+		.formbox input[type="date"]
+		{
+			color: #000;
+		}
+		
+		.formbox button{
+			cursor: pointer;
+			width: 150px;
+			height: 45px;
+			background-color: #fff;
+			color: black;
+			font-size: 16px;
+			letter-spacing: 1px;
+			border-radius: 30px;
+			border: none;
+			outline: none;
+			transition: .4s;
+			margin-top: 25px;
+		}
+		.formbox button:hover {
+			background-color: #00ff95;
+		}
+		.formbox input: valid{
+			border: 2px solid #00ff95;
+		}
+		::placeholder {
+  			color: #000;
+ 	 		opacity: .7;}

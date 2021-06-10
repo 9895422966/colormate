@@ -1,0 +1,269 @@
+
+/*=========================
+    ORDER OF CONTENT
+
+    1. Modal CSS
+    2. Registration CSS
+    3.
+    4.
+    5.
+    6.
+
+
+==========================*/
+
+
+
+/*-------- Login modal css-- 2 3 pagil und login----*/
+.modal-dialog .modal-content{
+    box-shadow: 0 27px 24px 0 rgba(0, 0, 0, 0.2), 0 40px 77px 0 rgba(0, 0, 0, 0.22);
+    border-radius: 25px;
+    border: 2px solid #000;
+}
+.modal-dialog .modal-header{
+    border-bottom: none;
+    padding-top: 24px;
+    padding-right: 24px;
+    padding-bottom: 0;
+    padding-left: 24px;
+}
+.modal-dialog .modal-header .modal-title{
+    font-size: 17px;
+    font-weight: 300;
+    color: #3C4858;
+    margin-bottom: 0;
+    margin-top: 10px;
+    line-height: 1.5;
+}
+.modal-dialog .modal-body {
+    padding-top: 24px;
+    padding-right: 24px;
+    padding-bottom: 16px;
+    padding-left: 30px;
+    color: #3C4858;
+}
+.modal .modal-header .close i{
+    font-size: 16px;
+    color: #999;
+}
+.modal-dialog .modal-footer{
+    border-top: none;
+    padding: 15px !important;
+}
+.modal-dialog .modal-body+.modal-footer{
+    padding-top: 0 !important;
+}
+.modal-dialog .modal-footer button{
+    margin: 0 !important;
+    padding-left: 16px !important;
+    padding-right: 16px !important;
+    width: auto;
+}
+.modal-login {
+    max-width: 390px !important;
+    margin-top:130px;
+}
+.modal-dialog .modal-content .card-signup .modal-header {
+    padding-top: 0;
+}
+.modal-login .modal-header .card-header{
+    width: 100%;
+}
+.modal-login .modal-header .close {
+    color: #fff;
+    top: -25px;
+    right: 50px;
+    text-shadow: none;
+    position: absolute;
+}
+.modal-login .modal-header .close i{
+    color: #fff;   
+}
+
+.modal-login .modal-body {
+    padding-left: 24px !important;
+}
+.modal-login .modal-footer {
+    padding-bottom: 0 !important;
+    padding-top: 0 !important;
+}
+.modal-login .modal-body {
+    padding-bottom: 0 !important;
+    padding-top: 0 !important;
+}
+.modal-login .modal-body .form .description {
+    padding-top: 15px;
+    margin-bottom: 10px;
+    color: #999;
+}
+.card
+{
+    border-radius: 25px;   
+    padding-bottom: 10px !important;
+    background-image: url('../img/skills.png');
+}
+.card .card-title{
+    color: #fff;
+    font-size: 25px !important;
+    font-weight: 700 !important;
+    
+    margin-top:10px;
+}
+.card .card-header{
+    border-radius: 12px !important;
+    padding: 1rem 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: -30px;
+    border: 0;
+}
+.card .card-header-primary {
+    box-shadow: 0 5px 20px 0 #55555566, 0 13px 24px -11px #00000099;
+    background: linear-gradient(60deg,#3F51B5,#046c9c)
+}
+.card-plain .card-body {
+    padding-left: 5px !important;
+    padding-right: 5px !important;
+}
+.card .card-body {
+    padding: 15px;
+}
+.modal-dialog .modal-body {
+    padding: 24px 10px 16px;
+}
+
+.modal-content .container
+{
+    text-align: center;
+    width: 350px;
+    height: 300px;
+    background: transparent;
+    border-radius: 30px;
+    transition: 1s;
+    padding-top: 40px;
+    padding-bottom: 10px;
+}
+.modal-content .container i
+{
+    transform: translateX(35px);
+    color: #000;
+}
+.modal-content .container input{
+    outline: none;
+    border-radius: 30px;
+    border: 2px solid black;
+    width: 270px;
+    height: 45px;
+    background-color: white;
+    margin-top: 25px;       
+    padding-right: 20px;
+    margin-right: 20px;
+    font-size: 16px;
+    transition: all .4s;
+}
+.modal-content .container input[type="tel"] {
+    color: black;
+    padding-left: 40px;    
+}
+.modal-content .container input[type="password"]
+{
+    color: black;
+    padding-left: 40px;
+}
+.modal-content .container input[type="submit"]{
+    cursor: pointer;
+    width: 150px;
+    height: 45px;
+    background-color: #fff;
+    color: black;
+    font-size: 16px;
+    letter-spacing: 1px;
+    border-radius: 30px;
+    border: none;
+    outline: none;
+    transition: .4s;
+    margin-top: 25px;
+    border: 2px solid black;
+    padding-left: 20px;
+}
+.modal-content .container input[type="submit"]:hover {
+    background-color: #00ff95;
+}
+.modal-content .container input[type="submit"]: valid{
+    border: 2px solid #00ff95;
+}
+.modal-content .container .forgot
+{
+    text-align: right !important;
+    padding-right: 17px;
+}
+.modal-content .container .forgot a
+{
+    color: #000;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+/*========== modal css theernu========= */
+
+
+/*========== Registration Page===========*/
+
+.inner-page .registration
+{
+
+}
+.inner-page .registration .left-block
+{
+    padding-left: 100px;
+}
+
+
+.inner-page .registration input{
+    outline: none;
+    border-radius: 30px;
+    border: 2px solid black;
+    width: 400px;
+    height: 45px;
+    background-color: white;
+    margin-top: 10px; 
+    margin-bottom: 10px;      
+    margin-right: 20px;
+    font-size: 16px;
+    transition: all .4s;
+}
+.inner-page .registration input:hover
+{
+    border: 2px solid red;
+}
+.inner-page .registration input[type="text"] {
+    color: black;
+    padding-left: 40px;    
+}
+.inner-page .registration input[type="password"]
+{
+    color: black;
+    padding-left: 40px;
+}
+.inner-page .registration input[type="submit"]{
+    cursor: pointer;
+    width: 150px;
+    height: 45px;
+    background-color: #fff;
+    color: black;
+    font-size: 16px;
+    letter-spacing: 1px;
+    border-radius: 30px;
+    border: none;
+    outline: none;
+    transition: .4s;
+    margin-top: 25px;
+    border: 2px solid black;
+    padding-left: 20px;
+}
+.inner-page .registration input[type="submit"]:hover {
+    background-color: #00ff95;
+}
+.inner-page .registration input[type="submit"]: valid{
+    border: 2px solid #00ff95;
+}
